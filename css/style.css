@@ -6,14 +6,21 @@
 }
 
 .container{
-    width: 1600px;
+    width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
+    
 
 }
-
 body{
     background-color: black;
+}
+
+.wrapper{
     height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -21,6 +28,8 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+
+
 
 header button{
     margin-left: 5px;
@@ -59,9 +68,16 @@ header button{
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: 1s opacity ease-in-out;
+    opacity: 0.5;
 
 }
 
+
+.item span:hover{
+    opacity: 1.0;
+
+}
 
 
 /* Footer */
@@ -103,7 +119,8 @@ footer i{
 
 }
 .debug main{
-
+overflow: auto;
+flex-grow: 1;
 
 }
 

@@ -6,13 +6,14 @@
 }
 
 .container{
-    width: 80%;
+    width: 1600px;
     margin: 0 auto;
 
 }
 
 body{
     background-color: black;
+    height:100vh;
 }
 
 header{
@@ -33,25 +34,80 @@ header button{
 
 /* MAIN */
 
-.flexcontainer{
+.flex-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 .item{
-    background-image: url("https://picsum.photos/seed/picsum/200/300");
-    background-size: cover;
+    background-image: url("https://picsum.photos/seed/picsum/300/200");
+    background-size: 100%;
+    margin: 10px 5px;
+    position: relative;
+    width: 250px;
+    height: 150px;
+}
+
+
+.item span{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
 }
 
 
 
+/* Footer */
 
+footer{
+    height: auto;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+}
 
+footer button{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
 
+}
 
+footer i{
+    font-size: 2.5em;
+    margin: 5px;
+}
 
+.endcall{
+    color: red;
+    background-color: #4a4a4a;
+    height: 100%;
+    line-height: 2.5em;
+
+}
 
 
 
 /* Debug */
+
+.debug .item{
+
+
+}
+.debug main{
+
+
+}
+
+.debug .container{
+
+
+}

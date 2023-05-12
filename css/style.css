@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header button{
+    margin-left: 5px;
+    font-weight: 100;
+    background-color: #3f3f3f;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* MAIN */
+
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Debug */
